@@ -1,11 +1,11 @@
+import React from 'react';
 import './App.css';
+import { Navbar } from './components/Navbar';
 
-function App() {
-  return (
-    <div>
-      Watch Party
-    </div>
-  );
-}
+const App: React.FC = () => (
+  <div>
+    <Navbar />
+  </div>
+);
 
 export default App;
